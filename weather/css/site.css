@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico");   
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");   
+@import url("https://fonts.googleapis.com/css?family=Lobster+Two");   
+
+
+body {
+    width: 100%;
+    height: 100%;
+    background: #3E005D;
+ 
+}
+
+
+@media only screen and (max-width:736px){
+    .conteudo{
+        
+        margin: 5% 5% 5% 5%;
+    }
+    
+    h1{
+        margin-top: 20% !important;
+        margin-bottom: 20% !important;
+    }
+    
+    .container{
+        width: 50% !important;
+    }
+}
+@media only screen and (max-width:1024px){
+    .conteudo{
+        
+        margin: 5% 5% 5% 5%;
+    }
+    
+    h1{
+        margin-top: 30% !important;
+        margin-bottom: 20% !important;
+    }
+    
+}
+
+h1{
+    font-family: 'Pacifico';
+    color:#ECF0F1;
+    margin-top: 2.5%;
+    margin-bottom: 5%;
+}
+
+h2, h4{
+    font-family: "Josefin Sans";
+    color:#ECF0F1;
+    display: inline-block;
+}
+
+h3{
+    font-family: "Josefin Sans";
+    color:white;
+    font-size: 80px;
+    display: inline-block;
+
+}
+
+a{
+    font-size: 60px;
+    color:white;
+}   
+a:hover{
+    color: #2C3E50;
+    text-decoration:none; 
+}
+
+@font-faces{
+    font-family: 'Pacifico', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.background-blur{
+    
+    background:white;
+    
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;  
+
+}
+
+#default{
+    
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;  
+
+        
+    -webkit-filter: blur(1.5px);
+    -moz-filter: blur(1.5px);
+    -o-filter: blur(1.5px);
+    -ms-filter: blur(1.5px);
+    filter: blur(1.5px);
+    
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    border: 0.5px solid #ECF0F1;
+        
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.15);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.15);
+}
+
+.default{
+    background: rgba(206,160,228,1);
+    background: -moz-linear-gradient(left, rgba(206,160,228,1) 0%, rgba(255,188,216,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(206,160,228,1)), color-stop(100%, rgba(255,188,216,1)));
+    background: -webkit-linear-gradient(left, rgba(206,160,228,1) 0%, rgba(255,188,216,1) 100%);
+    background: -o-linear-gradient(left, rgba(206,160,228,1) 0%, rgba(255,188,216,1) 100%);
+    background: -ms-linear-gradient(left, rgba(206,160,228,1) 0%, rgba(255,188,216,1) 100%);
+    background: linear-gradient(to right, rgba(206,160,228,1) 0%, rgba(255,188,216,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cea0e4', endColorstr='#ffbcd8', GradientType=1 );
+}
+
